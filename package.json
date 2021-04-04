@@ -26,10 +26,10 @@
   },
   "homepage": "https://lavaclient.js.org/",
   "devDependencies": {
+    "@fortune-inc/lavaclient": "git+https://github.com/Fortune-Inc/Fortune-lavaclient.git",
     "@types/node": "^14.0.24",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "@fortune-inc/lavaclient": "git+https://github.com/Fortune-Inc/Fortune-lavaclient.git",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
   },
