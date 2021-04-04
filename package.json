@@ -1,0 +1,39 @@
+{
+  "name": "@lavaclient/queue",
+  "version": "1.0.3",
+  "description": "A lavaclient plugin that adds queue functionality",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "prepack": "npm run tsc",
+    "prepare": "npm run tsc",
+    "build": "npm run tsc",
+    "prepublishOnly": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavaclient/plugins.git"
+  },
+  "keywords": [
+    "lavaclient",
+    "lavalink"
+  ],
+  "author": "MeLike2D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lavaclient/plugins/issues"
+  },
+  "homepage": "https://lavaclient.js.org/",
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "lavaclient": "^3.0.10",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@lavalink/encoding": "^0.1.1"
+  }
+}
