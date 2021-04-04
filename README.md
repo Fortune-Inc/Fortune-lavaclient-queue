@@ -9,7 +9,7 @@
 ## Installation
 
 ```bash
-npm install git+https://github.com/fortune-inc/Fortune-lavaclient-queue.git
+npm install https://github.com/Fortune-Inc/Fortune-lavaclient-queue.git
 ```
 
 ## Setup
@@ -18,7 +18,7 @@ npm install git+https://github.com/fortune-inc/Fortune-lavaclient-queue.git
 
 ```js
 import { Manager } from "@fortune-inc/lavaclient";
-import { QueuePlugin } from "@@fortune-inc/lavaclient-queue";
+import { QueuePlugin } from "@fortune-inc/lavaclient-queue";
 
 const manager = new Manager(...);
 manager.use(new QueuePlugin());
