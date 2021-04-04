@@ -7,8 +7,8 @@ function isInstalled(id: string): boolean {
   }
 }
 
-if (!isInstalled("lavaclient"))
-  throw new Error("Please install Lavaclient.");
+if (!isInstalled("@fortune-inc/lavaclient"))
+  throw new Error("Please install @fortune-inc/lavaclient.");
 
 export * from "./Queue";
 export * from "./Plugin";

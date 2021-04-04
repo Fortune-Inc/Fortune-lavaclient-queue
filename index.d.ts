@@ -1,5 +1,5 @@
 import type { EventEmitter } from "events";
-import type { Player, Plugin } from "lavaclient";
+import type { Player, Plugin } from "@fortune-inc/lavaclient";
 
 declare module "@lavaclient/queue" {
   interface Player {

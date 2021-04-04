@@ -1,7 +1,7 @@
-import { Player, Plugin, Structures } from "lavaclient";
+import { Player, Plugin, Structures } from "@fortune-inc/lavaclient";
 import { Queue } from "./Queue";
 
-declare module "lavaclient" {
+declare module "@fortune-inc/lavaclient" {
   interface Player {
     queue: Queue;
   }
